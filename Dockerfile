@@ -1,4 +1,4 @@
-FROM i386/alpine
+FROM i386/ubuntu
 
 # Install required packages
 RUN apk --update --no-cache add xvfb x11vnc openbox samba-winbind-clients 
